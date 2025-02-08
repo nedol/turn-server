@@ -14,7 +14,7 @@ app.listen("80", '0.0.0.0', () => {
 
 if (!global.turn_server) {
   global.turn_server = new Turn({
-    listeningPort: process.env.PORT || 443, // Render назначает порт динамически
+    listeningPort: process.env.PORT || 3478, // Render назначает порт динамически
     authMech: 'long-term',
     credentials: {
       user: 'password123', // Логин и пароль для клиентов
