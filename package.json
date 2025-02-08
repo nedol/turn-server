@@ -1,0 +1,19 @@
+{
+    "name": "kolmit-server",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">=18"
+    },
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "start": "node app.js",
+        "ws": "node app.js",
+        "dbg": "node --inspect-brk=9229 app.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "node-turn": "^0.0.6"
+
+    }
+}
