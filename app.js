@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 443;
 // Запуск HTTP-заглушки (чтобы Render не блокировал)
 const app = express();
 app.get('/', (req, res) => res.send('TURN server is running'));
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`HTTP-заглушка работает на порту ${PORT}`);
+app.listen("80", '0.0.0.0', () => {
+  console.log(`HTTP-заглушка работает на порту ${80}`);
 });
 
 
