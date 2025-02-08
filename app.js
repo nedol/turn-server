@@ -20,7 +20,7 @@ if (!global.turn_server) {
       user: 'password123', // Логин и пароль для клиентов
     },
     listeningIps: ['0.0.0.0'], // 👈 Обязательно!
-    // externalIps: ['https://kolmit-server.onrender.com'], // Укажите ваш внешний IP-адрес (если есть)
+    externalIps: ['https://kolmit-server.onrender.com'], // Укажите ваш внешний IP-адрес (если есть)
     relayIps: ['0.0.0.0'],
     debugLevel: 'ALL',
     allowLoopbackPeers: true,
